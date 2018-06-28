@@ -1,0 +1,31 @@
+							<tr>
+								<td><img src="<?php echo fb_slika($elem->getElementsByTagName('fid')->item(0)->nodeValue);?>" /></td>
+								
+								<td class="cell"> <?php echo $elem->getAttribute('ime'); ?> </td>
+								
+								<td> <?php	if(isset($lokacija)){
+												echo $lokacija['details']['location']['street'];
+											} else {
+												echo $elem->getElementsByTagName('ulica')->item(0)->nodeValue.$elem->getElementsByTagName('ulica')->item(0)->getAttribute('kbroj');
+											}
+								?></td>
+
+								<td class="cell"> <?php echo $elem->getElementsByTagName('cijena')->item(0)->nodeValue; ?> </td>
+								<td class="cell"> <?php 	for ($i = 0; $i < $rvr->length; $i++){
+												echo $rvr[$i]->getAttribute('dan').' '.$rvr[$i]->nodeValue."<br>";
+											} ?> </td>
+								<td class="cell"> <?php if($tel->length == 0) {echo "N/A";}
+												for ($i = 0; $i < $tel->length; $i++){
+												echo $tel[$i]->nodeValue.' '.$tel[$i]->getAttribute('broj')."<br>";
+											} ?> </td>
+								<td class="cell"> <?php if($ws->length == 0) {echo "N/A";}
+												for ($i = 0; $i < $ws->length; $i++){
+												echo $ws[$i]->nodeValue."<br>";
+											} ?> </td>
+								<td class="cell"> <?php if($em->length == 0) {echo "N/A";}
+												for ($i = 0; $i < $em->length; $i++){
+												echo $em[$i]->nodeValue."<br>";
+											} ?> </td>
+								<td>Duljina: <?php echo $duljina ?><br/>Širina: <?php echo $sirina  ?> </td>
+
+							</tr>

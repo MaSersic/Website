@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE muzeji SYSTEM "gramatika.dtd">
+<?xml-stylesheet type="text/xsl" href="pretvorba.xsl"?> 
+
+<muzeji>
+		   
+	<muzej ime="British museum" id="1">
+		<umjetnost></umjetnost>
+		<povijest></povijest>
+		<cijena>0</cijena>
+		<adresa>
+			<kvart>Tottenham</kvart>
+			<ulica kbroj="">Great Russell Street</ulica>
+		</adresa>
+		<radnovrijeme dan="radni">08-22</radnovrijeme>
+		<radnovrijeme dan="subota">08-22</radnovrijeme>
+		<radnovrijeme dan="nedjelja">10-18</radnovrijeme>
+		<telefon broj="555463">recepcija</telefon>
+		<webstranica>britishmuseum.org</webstranica>
+		<email>xyq@britishmuseum.org</email>
+		<fid>72228529722</fid>
+		<vodic></vodic>
+		<duljina>-0.1258618</duljina>
+		<sirina>51.5183299</sirina>
+	</muzej>
+	
+	<muzej ime="Tate modern" id="2">
+		<umjetnost></umjetnost>
+		<cijena>30</cijena>
+		<adresa>
+			<kvart>Southwark</kvart>
+			<ulica kbroj=" 53">Bankside</ulica>
+		</adresa>
+		<radnovrijeme dan="radni">08-22</radnovrijeme>
+		<radnovrijeme dan="subota">08-22</radnovrijeme>
+		<telefon broj="5578463">recepcija</telefon>
+		<webstranica>tate.org.uk/modern</webstranica>
+		<email>dzr4@tate.org.uk</email>
+		<email>ttzh@tate.org.uk</email>
+		<fid>20134383992</fid>
+		<grupa></grupa>
+		<duljina>-0.3904739</duljina>
+		<sirina>51.5125884</sirina>
+	</muzej>
+	
+	<muzej ime="The Sherlock Holmes Museum" id="3">
+		<povijest></povijest>
+		<cijena>50</cijena>
+		<adresa>
+			<kvart>Westminster</kvart>
+			<ulica kbroj=" 221B">Baker Street</ulica>
+		</adresa>
+		<radnovrijeme dan="radni">07-22</radnovrijeme>
+		<radnovrijeme dan="subota">07-22</radnovrijeme>
+		<radnovrijeme dan="nedjelja">07-16</radnovrijeme>
+		<webstranica>sherlock-holmes.co.uk</webstranica>
+		<email>xyq@sherlock-holmes.co.uk</email>
+		<fid>5701497375</fid>
+		<duljina>-0.1584945</duljina>
+		<sirina>51.5237604 </sirina>
+	</muzej>
+	
+	<muzej ime="Natural history museum" id="4">
+		<znanost></znanost>
+		<cijena>0</cijena>
+		<adresa>
+			<kvart>South Kensington</kvart>
+			<ulica kbroj="">Cromwell Road</ulica>
+		</adresa>
+		<radnovrijeme dan="radni">08-18</radnovrijeme>
+		<radnovrijeme dan="subota">08-18</radnovrijeme>
+		<telefon broj="577832">recepcija</telefon>
+		<webstranica>nhm.ac.uk</webstranica>
+		<fid>198081311536</fid>
+		<grupa></grupa>
+		<duljina>-0.4344411</duljina>
+		<sirina>51.5195475</sirina>
+	</muzej>
+	
+	<muzej ime="Science museum" id="5">
+		<znanost></znanost>
+		<cijena>0</cijena>
+		<adresa>
+			<kvart>Kensington</kvart>
+			<ulica kbroj="">Exhibition Road</ulica>
+		</adresa>
+		<radnovrijeme dan="radni">08-18</radnovrijeme>
+		<radnovrijeme dan="subota">08-18</radnovrijeme>
+		<telefon broj="777436">recepcija</telefon>
+		<telefon broj="777646">vodič</telefon>
+		<fid>7408594675</fid>
+		<vodic></vodic>
+		<duljina>-0.1745895</duljina>
+		<sirina>51.5016361</sirina>
+	</muzej>
+	
+	<muzej ime="Victoria and Albert Museum" id="6">
+		<umjetnost></umjetnost>
+		<povijest></povijest>
+		<cijena>10</cijena>
+		<adresa>
+			<kvart>South Kensington</kvart>
+			<ulica kbroj="">Cromwell Road</ulica>
+		</adresa>
+		<radnovrijeme dan="radni">10-20</radnovrijeme>
+		<radnovrijeme dan="subota">10-20</radnovrijeme>
+		<radnovrijeme dan="nedjelja">10-16</radnovrijeme>
+		<telefon broj="566743">vodič</telefon>
+		<webstranica>vam.ac.uk</webstranica>
+		<fid>13987918879</fid>
+		<vodic></vodic>
+		<grupa></grupa>
+		<duljina>-0.4344411</duljina>
+		<sirina>51.5195475</sirina>
+	</muzej>
+
+	<muzej ime="National Maritime Museum" id="7">
+		<povijest></povijest>
+		<vojni></vojni>
+		<cijena>0</cijena>
+		<adresa>
+			<kvart>Greenwich</kvart>
+			<ulica kbroj="">Park Row</ulica>
+		</adresa>
+		<radnovrijeme dan="radni">06-16</radnovrijeme>
+		<radnovrijeme dan="subota">06-16</radnovrijeme>
+		<webstranica>rmg.co.uk</webstranica>
+		<email>fgadf@rmg.co.uk</email>
+		<fid>118980882063662</fid>
+		<vodic></vodic>
+		<parking></parking>
+		<grupa></grupa>
+		<duljina>-0.0043991</duljina>
+		<sirina>51.4843752</sirina>
+	</muzej>
+
+	<muzej ime="National Gallery" id="8">
+		<umjetnost></umjetnost>
+		<cijena>0</cijena>
+		<adresa>
+			<kvart>Westminster</kvart>
+			<ulica kbroj="">Trafalgar Square</ulica>
+		</adresa>
+		<radnovrijeme dan="radni">08-18</radnovrijeme>
+		<radnovrijeme dan="subota">08-18</radnovrijeme>
+		<radnovrijeme dan="nedjelja">08-18</radnovrijeme>
+		<telefon broj="568322">recepcija</telefon>
+		<webstranica>nationalgallery.org.uk</webstranica>
+		<fid>83395535556</fid>
+		<vodic></vodic>
+		<parking></parking>
+		<grupa></grupa>
+		<duljina>-0.128050063436739</duljina>
+		<sirina>51.508037</sirina>
+	</muzej>
+
+	<muzej ime="Imperial War Museum" id="9">
+		<povijest></povijest>
+		<vojni></vojni>
+		<cijena>50</cijena>
+		<adresa>
+			<kvart>Kennington</kvart>
+			<ulica kbroj="">Lambeth Road</ulica>
+		</adresa>
+		<radnovrijeme dan="radni">08-18</radnovrijeme>
+		<radnovrijeme dan="subota">08-18</radnovrijeme>
+		<webstranica>iwm.org.uk</webstranica>
+		<fid>97951440478</fid>
+		<vodic></vodic>
+		<parking></parking>
+		<grupa></grupa>
+		<duljina>-0.1096916</duljina>
+		<sirina>51.4968895</sirina>
+	</muzej>
+
+	<muzej ime="London Transport Museum" id="10">
+		<povijest></povijest>
+		<lokalni></lokalni>
+		<znanost></znanost>
+		<cijena>10</cijena>
+		<adresa>
+			<kvart>Covent Garden</kvart>
+			<ulica kbroj="">Covent Garden Piazza</ulica>
+		</adresa>
+		<radnovrijeme dan="radni">08-18</radnovrijeme>
+		<radnovrijeme dan="subota">08-18</radnovrijeme>
+		<radnovrijeme dan="nedjelja">08-16</radnovrijeme>
+		<webstranica>ltmuseum.co.uk</webstranica>
+		<email>abc@ltmuseum.co.uk</email>
+		<fid>31304634352</fid>
+		<grupa></grupa>
+		<duljina>-0.1233745</duljina>
+		<sirina>51.5116899</sirina>
+	</muzej>
+</muzeji>

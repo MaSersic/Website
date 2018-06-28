@@ -1,0 +1,27 @@
+<!ELEMENT muzeji (muzej+)>
+
+<!ELEMENT muzej (umjetnost?,povijest?,vojni?,lokalni?,znanost?,cijena,adresa,radnovrijeme+,telefon*,webstranica?,email*,fid,vodic?,parking?,grupa?,duljina,sirina)>
+	<!ATTLIST muzej ime CDATA #REQUIRED
+			  muzej id CDATA #REQUIRED>
+<!ELEMENT umjetnost EMPTY>
+<!ELEMENT povijest EMPTY>
+<!ELEMENT vojni EMPTY>
+<!ELEMENT lokalni EMPTY>
+<!ELEMENT znanost EMPTY>
+<!ELEMENT cijena (#PCDATA)>
+<!ELEMENT parking EMPTY>
+<!ELEMENT vodic EMPTY>
+<!ELEMENT grupa EMPTY>
+<!ELEMENT fid (#PCDATA)>
+<!ELEMENT webstranica (#PCDATA)>
+<!ELEMENT telefon (#PCDATA)>
+	<!ATTLIST telefon broj CDATA #REQUIRED>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT radnovrijeme (#PCDATA)>
+	<!ATTLIST radnovrijeme dan (radni|subota|nedjelja) #REQUIRED>
+<!ELEMENT adresa (kvart,ulica)>
+<!ELEMENT kvart (#PCDATA)>
+<!ELEMENT ulica (#PCDATA)>
+	<!ATTLIST ulica kbroj CDATA #REQUIRED>
+<!ELEMENT duljina (#PCDATA)>
+<!ELEMENT sirina (#PCDATA)>

@@ -1,0 +1,83 @@
+﻿<!doctype html>
+<html lang="hr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Laboratorijske vježbe iz OR"/>
+		<meta name="author" content="Marin Seršić"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="dizajn.css" />
+		<title>Muzeji u Londonu - Pretraga</title>
+	</head>
+	
+	<body>
+		<header>
+			Pretraga Londonskih Muzeja
+		</header>
+		
+		<div class="row">
+			<nav>
+				<ul>
+					<li><a href="index.html" >Početna</a>		</li>
+					<li><a href="obrazac.html" >Pretraga</a>	</li>
+					<li><a href="podaci.xml" >Muzeji</a> </li>
+				</ul>
+			</nav>
+				
+			<form class = "obrazac" action="pretraga.php" method="post" name="pretraga">
+				<table>
+					<tr><td  colspan="2"  class="podgrupa"> Ovdje upišite podatke o muzeju:</td></tr> 
+					
+					<tr><td>Ime:</td>  <td><input type="text" name="ime"></td> </tr>
+					<tr><td>Vrsta muzeja:</td><td>
+						<input type="checkbox" name="umjetnost">Umjetnosti
+						<input type="checkbox" name="povijest">Povijesni
+						<input type="checkbox" name="vojni">Vojni
+						<input type="checkbox" name="lokalni">Lokalni
+						<input type="checkbox" name="znanost">Znanstveni
+						</td>
+					</tr>
+					<tr><td>Max cijena ulaznice:</td> <td><input type="text" name="cijena"></td></tr>
+					
+					<tr><td class="podgrupa">Adresa:</td></tr>
+					<tr><td>Kvart:</td>  <td><input type="text" name="kvart"></td> </tr>
+					<tr><td>Ulica:</td>  <td><input type="text" name="ulica"></td> </tr>				
+					
+					<tr><td class="podgrupa">Radno vrijeme:</td></tr> 
+					<tr>						<td><select name="dan[]">
+													<option value="radni"  >Radni dan</option>
+													<option value="subota"  >Subota</option>
+													<option value="nedjelja"  >Nedjelja i Praznik</option>
+													</select>
+													</td>
+												<td>Od(sati) <input type="text" name="radnovrijeme"></td>
+					</tr>
+					
+					<tr><td class="podgrupa">Kontakt:</td></tr>
+					<tr><td> Telefon </td> <td colspan="2"> 	<input type="radio" name="telefon" value="da"><label>Da</label>
+																<input type="radio" name="telefon" value="ne" checked="checked"><label>Ne</label></td> </tr>  
+					<tr><td> Web stranica </td> <td colspan="2"> 	<input type="radio" name="webstranica" value="da"><label>Da</label>
+																	<input type="radio" name="webstranica" value="ne" checked="checked"><label>Ne</label></td> </tr> 
+					<tr><td> E-mail </td> <td colspan="2"> 	<input type="radio" name="email" value="da"><label>Da</label>
+															<input type="radio" name="email" value="ne" checked="checked"><label>Ne</label></td> </tr> 
+														
+					<tr><td class="podgrupa">Dodatno:</td></tr>
+					<tr><td> Vodic </td> <td colspan="2"> 	<input type="radio" name="vodic" value="da"><label>Da</label>
+															<input type="radio" name="vodic" value="ne" checked="checked"><label>Ne</label></td> </tr>  
+					<tr><td> Parking </td> <td colspan="2"> 	<input type="radio" name="parking" value="da"><label>Da</label>
+																<input type="radio" name="parking" value="ne" checked="checked"><label>Ne</label></td> </tr> 
+					<tr><td> Organizirane grupe </td> <td colspan="2"> 	<input type="radio" name="grupa" value="da"><label>Da</label>
+																		<input type="radio" name="grupa" value="ne" checked="checked"><label>Ne</label></td> </tr> 
+																				
+					<tr><td><button type="submit" value="Traži">Submit</button></td>
+						<td><button type="reset" value="Reset">Reset</button> </td>
+					</tr>
+			
+		
+				</table>
+			</form>	
+		</div>
+		
+		<footer>
+			Autor: Marin Seršić
+		</footer>
+	</body>
